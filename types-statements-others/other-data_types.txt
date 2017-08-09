@@ -1,0 +1,7 @@
+# other data types
+complex
+long  # only in python 2
+bytes and bytearray
+tuple = (3, 5, 1, 'mark')
+set and frozenset
+set([3, 2, 3, 1, 5]) == (1, 2, 3, 5)

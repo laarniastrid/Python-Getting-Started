@@ -1,0 +1,6 @@
+# summary
+data types
+lists
+dictionaries
+for and while loops
+exception handling
