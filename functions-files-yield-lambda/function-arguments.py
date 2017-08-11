@@ -13,7 +13,7 @@ def print_students_titlecase():
 
 # student_id plus = makes it optional since it has the default value
 def add_student(name, student_id=332):
-    student = {name: name, student_id: student_id}
+    student = {'name': name, 'student_id': student_id}
     students.append(student)
 
 def var_args(name, **kwargs):
