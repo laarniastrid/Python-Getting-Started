@@ -13,6 +13,7 @@ def print_students_titlecase():
 
 # student_id plus = makes it optional since it has the default value
 def add_student(name, student_id=332):
+    # object property/key must have quotes
     student = {'name': name, 'student_id': student_id}
     students.append(student)
 
@@ -24,4 +25,3 @@ student_id = input('enter student id : ')
 
 add_student(student_name, student_id)
 print_students_titlecase()
-
